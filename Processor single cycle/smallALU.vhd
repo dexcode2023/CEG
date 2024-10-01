@@ -1,0 +1,74 @@
+library  ieee;
+use  ieee.std_logic_1164.all;
+
+entity smallAlu is 
+port (
+		selec :in std_logic_vector(2 downto 0);
+		ValA, ValB: in std_logic_vector(7 downto 0);
+		ValO : out std_logic_vector(7 downto 0);
+		zero : out std_logic);
+end smallAlu;
+
+architecture rtl of smallAlu is
+
+
+
+component fullAdder8Bit is
+	port(
+		M : in std_logic_vector (7 downto 0);
+		N : in std_logic_vector (7 downto 0);
+		Cin : in std_logic;
+		Cout : out std_logic;
+		Sum : out std_logic_vector (7 downto 0)
+	);
+end component;
+
+
+component fullSubtractor8Bit is
+	port(
+		M : in std_logic_vector (7 downto 0);
+		N : in std_logic_vector (7 downto 0);
+		Din : in std_logic;
+		Cout : out std_logic;
+		Sum : out std_logic_vector (7 downto 0)
+	);
+end component;
+
+
+component eightBitAND is
+	port (
+		ValA,ValB: in std_logic_vector(7 downto 0);
+		ValO: out std_logic_vector(7 downto 0)
+	);
+end component eightBitAND;
+
+ component eightBitOR is
+	port (
+		ValA,ValB: in std_logic_vector(7 downto 0);
+		ValO: out std_logic_vector(7 downto 0)
+	);
+end component eightBitOR;
+
+component mux8x3 is
+	port (
+		a,b,c,d,e,f,g,h : in std_logic_vector(7 downto 0);
+		s: in std_logic_vector(2 downto 0);
+		m : out std_logic_vector(7 downto 0)
+	);
+end component mux8x3;
+signal inSigA,inSigB,inMuxA,inMuxB,inMuxC,inMuxD,inMuxE,outMuxA,inMuxF: std_logic_vector(7 downto 0);
+signal selectors : std_logic_vector(2 downto 0);
+begin
+selectors <= selec;
+inSigA <= ValA ; inSigB <= ValB;
+
+
+ sAND: eightBitAND port map(inSigA,inSigB,inMuxA);
+ sOR: eightBitOR port map(inSigA,inSigB,inMuxB);
+ sADD: fullAdder8Bit port map(inSigA,inSigB, '0', open, inMuxC);
+ sSUB: fullSubtractor8Bit port map(inSigA, inSigB, '0', open, inMuxD);
+ mux: mux8x3 port map(inMuxA,inMuxB,inMuXC,inMuxD,inMuxE,"00000000","00000000","00000000",selectors,outMuxA);
+ ValO <= outMuxA;
+ zero <= not(outMuxA(0) or outMuxA(1) or outMuxA(2) or outMuxA(3) or outMuxA(4) or outMuxA(5) or outMuxA(6) or outMuxA(7));
+ 
+end architecture rtl;
