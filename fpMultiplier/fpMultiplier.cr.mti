@@ -1,0 +1,97 @@
+D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitAdder.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sevenBitAdder
+-- Compiling architecture struct of sevenBitAdder
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitRegister.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sevenBitRegister
+-- Compiling architecture rtl of sevenBitRegister
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/fpMultiplierControl.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/fpMultiplierControl.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fpMultiplierControl
+-- Compiling architecture rtl of fpMultiplierControl
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/enardFF_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/enardFF_2.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enARdFF_2
+-- Compiling architecture rtl of enARdFF_2
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/enasdFF.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/enasdFF.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enasdFF
+-- Compiling architecture rtl of enasdFF
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/eightBitAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\Users\Fernando\Desktop\School\CEG3156\Labs\CEG3156_Lab1\fpMultiplier\eightBitAdder.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitAdder
+-- Compiling architecture struct of eightBitAdder
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/nineBitMultiplier.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\Users\Fernando\Desktop\School\CEG3156\Labs\CEG3156_Lab1\fpMultiplier\nineBitMultiplier.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nineBitMultiplier
+-- Compiling architecture rtl of nineBitMultiplier
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/nineBitAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\Users\Fernando\Desktop\School\CEG3156\Labs\CEG3156_Lab1\fpMultiplier\nineBitAdder.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nineBitAdder
+-- Compiling architecture struct of nineBitAdder
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/oneBitFullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/oneBitFullAdder.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBitFullAdder
+-- Compiling architecture struct of oneBitFullAdder
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/nineBitShiftRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/nineBitShiftRegister.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nineBitShiftRegister
+-- Compiling architecture rtl of nineBitShiftRegister
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/fpMultiplier.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/fpMultiplier.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fpMultiplier
+-- Compiling architecture rtl of fpMultiplier
+
+} {} {}} D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitUpCounter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Users/Fernando/Desktop/School/CEG3156/Labs/CEG3156_Lab1/fpMultiplier/sevenBitUpCounter.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sevenBitUpCounter
+-- Compiling architecture rtl of sevenBitUpcounter
+
+} {} {}}
